@@ -1,0 +1,51 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+#calCaption {
+    background-color: cadetblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.td1 {
+    background-color: #EAECEE;
+    border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+    padding: 10px 15px 10px 15px;
+}
+
+#days {
+   padding: 2px;
+    text-align: center;
+}
+
+#holiday {
+    background-color: #0490FD;
+    color: white;
+}
+
+#sunday {
+    color: #0490FD;
+}
+
+#secRow {
+    padding-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+#lastRow {
+    text-align: right;
+}
+
+form {
+    background-color: #BB9746;
+    padding-bottom: 0.5%;
+ 
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA2</title>
+    <link href="pa2.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<header>
+    <div id="topHeaderRow" >
+        <nav >
+                <a href="#"> My Account</a>
+                <a href="#"> Wish List</a>
+                <a href="#"> Shopping Cart</a>
+                <a href="#"> Checkout</a>                 
+        </nav>
+   </div>   <!-- end topHeaderRow -->
+   
+
+   
+   <div id="mainNavigationRow" >
+       <h1>Art Store</h1>
+         <nav >
+             
+               <a href="page2.html">Home</a>
+               <a href="#">About Us</a>
+               <a href="#">Art Works</a>
+               <a href="#">Artists</a>             
+
+         </nav>
+   </div>  <!-- end mainNavigationRow -->
+   
+</header>
+    <article>
+    <form action="http://www.randyconnolly.com/tests/process.php" method="get" >
+    <h2>Customer Registration</h2>
+        <ol>
+            <li> <h3>User Info</h3>
+                <table>
+                    <tr>
+                        <th><label>First Name </label></th>
+                        <th>Last Name</th>
+                    </tr>
+                    <tr>
+                        <td> <input type="text" name="first"/></td>
+                        <td> <input type="text" name="last" /></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Email</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input class="in" type="email" name="email" placeholder="format for email is xxx@yyy.zzz"/></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <th>Password Repeat</th>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="pass1" placeholder="at list 6 characters"/></td>
+                        <td><input type="password" name="pass2" placeholder="at list 6 characters"/></td>
+                    </tr>
+                </table>
+            </li>
+            <li> <h3>Location</h3>
+                <table>
+                    <tr>
+                        <th colspan="2">Address</th>
+                    </tr>
+                     <tr>
+                        <td colspan="2"><input  class="in" type="text" name="address" /></td>
+                    </tr>
+                     <tr>
+                        <th>City</th>
+                        <td><label class="zc">State</label><label class="zc"> Zip</label></td>
+                    </tr>
+                     <tr>
+                        <td><input type="text" name="city" /></td>
+                        <td><input class="cz" type="text" name="state" />
+                        <input class="cz" type="text" name="zip" /></td>
+                    </tr>
+                     <tr>
+                        <th>Phone</th>
+                        <th>Country</th>
+                    </tr>
+                     <tr>
+                        <td><input type="number" name="phone" placeholder="NNN NNN NNNN"/></td>
+                        <td><select name="country" >
+                            <option selected>Canada</option>
+                            <option>USA</option>
+                            <option>England</option>
+                            <option>Egipt</option>
+                            <option>Mexico</option>
+                            <option>Autralia</option>
+                            <option>China</option>
+                            <option>Japan</option>
+                            <option>Ethopia</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <label><strong>Continent</strong></label><br>
+                <input type="radio" name="Continent" value="1">North America <br>
+                <input type="radio" name="Continent" value="2">Europe<br>
+                <input type="radio" name="Continent" value="3">South America <br>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <th>Birth Day</th>
+                        <th>Favorite Color</th>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="brthdate"/></td>
+                        <td><input type="color"  name="color"/></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"> Interest in Art</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">minimal<input type="range" name="interest" min="0" max="10" />love it!</td>
+                    </tr>
+                </table>
+            </li>
+            <li> <h3> All Done</h3>
+                <input type="checkbox" name="accept" value="on"/> I agree to the <a href="#" >Terms of the site</a><br>
+                <button id="signup" type="submit"><img src="images/button_ok.png" alt="checkmark"> Sign me up! </button>
+
+            </li>
+        </ol>
+    
+    </form>
+    </article>
+    <footer>
+   <div id="copyrightRow">
+       <p>All images are copyright to their owners. This is just a hypothetical site
+       <span >&copy; 2014 Copyright Art Store</span></p>
+   </div>
+</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap-3.0.0/assets/js/jquery.js"></script>
+    <script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>    
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Inclass</title>
+    
+    <script type="text/javascript">
+        
+        var numbers = new Array();
+		var positive = 0;
+		var negative = 0;
+		var zero = 0;
+
+		numbers[0] = prompt("Enter number 1: ");
+		numbers[1] = prompt("Enter number 2: ");
+		numbers[2] = prompt("Enter number 3: ");
+		
+		for (var i of numbers){
+			if (i == 0) {
+				zero++;
+			} else if (i > 0) {
+				positive++;
+			} else {
+				negative++;
+			}
+		}
+		
+		document.writeln("Positive Count: " + positive + "<br>");
+		document.writeln("Negative Count: " + negative + "<br>");
+		document.writeln("Zero Count: " + zero + "<br>");
+        
+        
+    </script>
+</head>
+<body>
+ 
+</body>

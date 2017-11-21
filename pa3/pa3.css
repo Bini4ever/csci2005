@@ -1,0 +1,304 @@
+
+
+header, footer, nav, div, p, body {
+   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+   font-size: 1em;
+}
+
+header {
+   background-color: rgb(63, 159, 217);
+   height: 3em; 
+    padding-top: 10px;
+}
+
+header p{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    
+}
+
+header div {
+    margin: 10px 0 10px 0
+}
+
+header .brand {
+   font-family: Vendana, Arial, sans-serif;
+    margin-top: 2em;
+   padding: 10px 8px 10px 12px;
+   margin-left: 3em;
+   font-size: 1.5em;
+   font-weight: bold;
+   line-height: 1;
+   color: #f5f5f5;
+   text-decoration: none;    
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li{
+    list-style: none;
+    float: left;
+}
+
+header ul .nav:link {
+   color: white;
+   text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+
+header ul .nav:visited {
+    color: yellow;
+}
+
+/* Main structure */
+
+div#container {
+    overflow: auto;
+}
+#main {
+   margin: 0 22.5em 0 15em;
+   overflow: hidden;
+}
+
+aside {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 4em;
+    width: 19em;
+ 
+}
+#rail {
+    float: left;
+    position: absolute;
+    width: 15em;
+    top: 4em;
+    left: 0;
+}
+
+/* other common classes */
+
+.well, .alert {
+   margin-bottom: 2em;
+   padding: 1em;
+}
+.well {   
+   background-color: #f5f5f5;
+   border: 1px solid #eee;
+   border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.well h3 {
+   background-color: #b6d1f2;
+   padding: 1em;
+}
+
+#messageList img {
+    overflow: auto;
+    float: left;
+}
+
+#messageList li p{
+    overflow: auto;
+    float: left;
+}
+
+
+.alert {
+   background-color: #edebe1;
+   border-color: #e0d9cb;
+   color: #817b58;
+}
+
+.breadcrumb {
+   padding: 0.5em 1em;
+
+   list-style: none;
+   background-color: #fbfbfb;
+}
+
+/* main styles */
+#main {
+   padding: 0.5em 0.75em;
+}
+#main h2 {
+   padding-top: 1em;
+   font-size: 1.5em;
+}
+#main h4 {
+   padding-top: 1.5em;
+   font-size: 1.2em;
+}
+#main th {
+   text-align: left;
+}
+
+#main #table1{
+    width: 43em;
+    align-content: center;
+}
+#main table td{
+    font-size: 75%;
+    text-decoration: none;
+}
+
+
+#main #yourCompany {
+    overflow: auto;
+    float: left;
+    margin-bottom: 1.5em;
+    font-size: 0.8em;
+}
+#main #client {
+    overflow: auto;
+    float: right;
+    font-size: 0.8em;
+}
+#main hr {
+   clear: both;
+}
+.bigButton {
+    margin-top: 1em;
+    background-color: rgb(63,  159, 217);
+    text-align: center;
+    color: #f5f5f5;
+    text-decoration: none;  
+    display: block;
+    padding: 10px;
+    width: 12em;
+}
+
+.bigButton2 {
+    margin-top: 1em;
+    background-color: rgb(63,  159, 217);
+    text-align: center;
+    color: #f5f5f5;
+    text-decoration: none;  
+    display: block;
+    padding: 10px;
+    width: 12em;
+    margin-left: 10%;
+}
+
+/* left rail styles */
+
+#rail nav {
+ 
+}
+#rail nav  ul {
+   list-style-type:none;
+   font-size: 1.1em;
+}
+#rail nav  ul li {
+   margin-bottom: 0.3em;
+}
+
+/* right aside styles */
+
+ul#changeList, ul#sellersList, ul#messageList {
+   background-color: white;
+   list-style-type:none;  
+}
+ul#changeList li {   
+   overflow: auto;  
+   padding-top: 1em;   
+}
+ul#changeList li  p{ 
+    overflow: auto;
+    float: left;
+    padding-top: 0.5em;
+}
+ul#changeList li span {
+
+   min-width: 1.75em;
+   text-align: right;
+   font-size: 2em;
+   padding: 0 1em 0 0;
+   color: #616466;
+   text-shadow: 0 1px 1px      rgba(0, 0, 0, 0.25);
+   overflow: auto;
+   float: left;
+}
+
+ul#sellersList li, ul#messageList li {   
+   overflow: auto;  
+   padding: 1em 0.25em 0 0;   
+   font-size: 0.75em;
+}
+ul#sellersList img{
+    overflow: auto;
+    float: left;
+}
+ul#sellersList p {
+    padding-top: 1.5em;
+    overflow: auto;
+    float: left;
+    width: 15em
+}
+
+ul#messageList  img {
+  
+   padding-right: 0.5em;
+}
+#messageList li  p {
+   font-size: 0.9em;
+   padding: 0.3em 0.25em;
+}
+#calCaption {
+    background-color: cadetblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.td1 {
+    background-color: #EAECEE;
+    border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+    padding: 10px 15px 10px 15px;
+    
+}
+
+.td2 {
+    background-color: #EAECEE;
+    border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+    padding: 10px 15px 10px 15px;
+    padding: 2px;
+    text-align: center;
+}
+
+#holiday {
+    background-color: #0490FD;
+    color: white;
+}
+
+.sunday {
+    background-color: #EAECEE;
+    border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+    padding: 10px 15px 10px 15px;
+    color: #0490FD;
+}
+
+#secRow {
+    padding-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+#lastRow {
+    text-align: right;
+}
+
+#calender {
+    width: 90%;
+    margin: 10%;
+}
+
+.hr {
+    margin-left: 50px;
+}
+
+.breadcrumb2 {
+    margin-left: 50px;
+}

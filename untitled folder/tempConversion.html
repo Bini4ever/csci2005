@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Inclass</title>   
+</head>
+<body >
+ <h1>Lab 9</h1>
+    <script type="text/javascript">
+        
+        do{
+        var1 = prompt("To convert to celsius enter 1\nTo convert to Fahrenheit Enter 2\nTo quit enter 0")
+        if (var1==1){
+            f = prompt("enter the Fahrenheit value ");
+            c =celsius(f);
+            document.write(f + " in Celsius is " + c + "<br>");
+        } else if (var1 == 2){
+            c = prompt("enter the Celsius value ");
+            f =fahrenheit(c);
+            document.write(c + " in Fahrenheit is " + f + "<br>");
+        }
+        else{
+            continue;       
+        }
+        }while(var1!= 0);
+        
+        function celsius(fahrenheit){
+           return (5.0/9.0) * (fahrenheit - 32);
+        }
+        
+        function fahrenheit(celsius){
+            return (9.0/5.0) * celsius + 32;
+        }    
+    </script>
+</body>
+</html>

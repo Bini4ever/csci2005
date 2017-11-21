@@ -1,0 +1,270 @@
+body 
+{
+	background: #303030;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 8pt;
+	line-height: 1.75em;
+}
+
+#header
+{
+	position: relative;
+	background: #FFF;
+    border-bottom: solid 6px #303030;
+    
+    
+}
+
+	#header .container
+	{
+		position: relative;
+		padding: 5em 0em 4em 0em;
+	}
+
+h1,h2,h3,h4,h5,h6
+{
+	letter-spacing: 1px;
+	
+	font-weight: 300;
+}
+
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: absolute;
+		right: 0em;
+		top: 2.2em;
+	}
+
+		#nav > ul > li
+		{
+			float: left;
+			list-style-type: none;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				margin-left: 0.7em;
+				padding: 0.80em 1.2em;
+				letter-spacing: 0.06em;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 1.1em;
+				outline: 0;
+				color: #333;
+			}
+
+			#nav li.active a
+			{
+				background: #e95d3c;
+				border-radius: 5px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+	position: absolute;
+	left: 1em;
+	top: 0em;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+	#logo h1
+	{
+		color: black;	
+		font-size: 35px;	
+	}
+#logo h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+	
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		padding: 12em 0em;
+		background: url(images/stole%20.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}	
+    #menbanner
+	{
+		position: relative;
+		padding: 12em 0em;
+		background: url(images/stole%20for%20men.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}	
+    #womenbanner
+	{
+		position: relative;
+		padding: 12em 0em;
+		background: url(images/stole%20for%20women.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}	
+    #kidbanner
+	{
+		position: relative;
+		padding: 12em 0em;
+		background: url(images/stole%20for%20kid.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}	
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		position: relative;
+		background: #fff;
+	}
+
+	#main
+	{
+		border-top: 1px solid;
+		border-color: rgba(0,0,0,.2);
+		padding-bottom: 50px;
+		overflow: hidden;
+	}
+
+	#main h1 
+	{
+		text-align: center;
+		font-size: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	#image2 
+	{
+		width: 50%;
+		float: left;
+	}
+
+	#main p
+	{
+		width: 40%;
+		float: right;
+		margin: 25px;
+		font-size: 16px;
+		padding-top: 50px;
+	}
+    
+    #itemsOutput {  
+        width: 60%;
+        float: left;
+        margin-left: 20%;
+        font-size: 16px;
+        padding-top: 50px;
+    }
+
+	
+
+	#output{
+		
+	}
+    figure{
+        background-color: white;
+        float: left;
+        overflow: auto;
+        margin: 22px;
+        color: #303030;
+        text-align: center;
+        
+    }
+    
+
+    figure.dives{
+        float: left;
+        width: 190px;
+        background-color: white;
+        border: 1px solid lightgrey;
+        text-align: center;
+    }
+    
+    .price {
+        font-size: 150%;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    button {
+        background-color: #e95d3c; 
+        padding: 8px;
+        color: white;
+        font-size: 125%;
+    }
+    .decr{
+        font-size: 225%;
+        color: #303030;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    td {
+        padding: 15px;
+        width: 50%;
+    }
+
+    .cap{
+        background-color: #e95d3c;;
+        color: white;
+        width: 30%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align : center;
+        font-size: 1em;
+    }
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+        clear: both;
+		padding: 3em 0em;
+		border-top: 10px solid #303030;
+		letter-spacing: 1px;
+		text-align: center;
+		color: black;
+		background-color: white;
+	}
+	
+	#copyright .container
+	{
+		
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.4) !important;
+	}

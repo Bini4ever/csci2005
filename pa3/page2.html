@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="pa3.css" />
+</head>
+<body>
+<header>
+   <ul>
+      <li><a class="brand" href="#">Not A Real CRM</a></li>
+      <li><a class="nav" href="page1.html">Dashboard</a></li>
+      <li><a class="nav" href="#">Contacts</a></li>
+      <li><a class="nav" href="#">Tasks</a></li>
+   </ul>
+</header>
+<div id="container">
+   <div id="main">
+      <div class="breadcrumb2">
+         <a href="page1.html">Dashboard</a> / <a href="#">Sales</a>
+      </div>
+       <hr class="hr">
+       <table id="calender">
+        <caption id="calCaption">October 2016
+        </caption>
+        <tr>
+            <td class="td2" >S</td>
+            <td class="td2" >M</td>
+            <td class="td2" >T</td>
+            <td class="td2" >W</td>
+            <td class="td2" >T</td>
+            <td class="td2" >F</td>
+            <td class="td2" >S</td>
+        </tr>
+        <tr>
+            <td class="td1" colspan="6"></td>
+            <td class="td1">1</td>
+        </tr>
+        <tr>
+            <td class="sunday">2</td>
+            <td class="td1">3</td>
+            <td class="td1">4</td>
+            <td class="td1">5</td>
+            <td class="td1">6</td>
+            <td class="td1">7</td>
+            <td class="td1">8</td>
+        </tr>
+        <tr>
+            <td class="sunday">9</td>
+            <td class="td1">10</td>
+            <td class="td1">11</td>
+            <td class="td1">12</td>
+            <td class="td1">13</td>
+            <td class="td1" id="holiday">14</td>
+            <td class="td1">15</td>
+        </tr>
+        <tr>
+            <td class="sunday">16</td>
+            <td class="td1">17</td>
+            <td class="td1">18</td>
+            <td class="td1">19</td>
+            <td class="td1">20</td>
+            <td class="td1">21</td>
+            <td class="td1">22</td>
+        </tr>
+        <tr>
+            <td class="sunday">23</td>
+            <td class="td1">24</td>
+            <td class="td1">25</td>
+            <td class="td1">26</td>
+            <td class="td1">27</td>
+            <td class="td1">28</td>
+            <td class="td1">29</td>
+        </tr>
+        <tr>
+            <td class="sunday">30</td>
+            <td class="td1">31</td>
+            <td class="td1" colspan="5"></td>
+            
+        </tr>
+        <tr>
+            <td class="td1" colspan="3"><a href="#">&lt;&lt; Sep</a></td>
+            <td class="td1"></td>
+            <td class="td1" id="lastRow" colspan="3"><a href="#">Nov &gt;&gt;</a></td>
+        </tr>
+    </table>
+    <p><a href="#" class="bigButton2">Send to Client</a></p>
+   </div>
+   <div id="rail">
+      <div class="alert"> 
+         <span class="icon-user"></span>
+         <strong>John Locke</strong><br/>
+         Senior Sales Rep<br/>
+         <a href="#">Settings</a> | <a href="#">Logout</a>
+      </div>    
+      <nav class="well">
+         <ul> 
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Tasks</a></li>                                      
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Calendar</a></li>
+         </ul>     
+      </nav>
+      <div class="well">
+         <h3>Recent Messages</h3>
+         <ul id="messageList">
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Ellie Sullivan</a><br/>On 4 October, 2014 </p></li>
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Madalena Sampaio</a><br/>On 4 October, 2014 </p></li>
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Puja Srivastava</a><br/>On 3 October, 2014 </p></li>
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Mark Taylor</a><br/>On 2 October, 2014 </p></li>
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Madalena Sampaio</a><br/>On 2 October, 2014 </p></li>
+            <li><img src="images/book/glyphicons_042_group.png" class="blockIcon" alt="#"><p>From <a href="#">Ellie Sullivan</a><br/>On 1 October, 2014 </p></li>            
+         </ul> 
+      </div>
+   </div>
+   <aside>
+      <div class="well"> 
+         <h3>Weekly Changes</h3>
+         <ul id="changeList">
+            <li><span class="changeNumber">20</span><p>New Orders</p></li>
+            <li><span class="changeNumber">5</span><p>New Books</p></li> 
+            <li><span class="changeNumber">6</span><p>New Customers</p></li>
+         </ul>
+      </div>
+      <div class="well"> 
+         <h3>Top Sellers</h3>
+         <ul id="sellersList">
+            <li>
+               <img src="images/book/013261930X.jpg" alt="English for Careers" class="blockBook" /><p class="blockTitle"><em><a href="#">English for Careers</a></em></p>
+            </li>
+            <li>
+               <img src="images/book/013267145X.jpg" alt="Adaptive Filter Theory" class="blockBook" /><p class="blockTitle"><em><a href="#">Adaptive Filter Theory</a></em></p>
+            </li> 
+            <li>
+               <img src="images/book/013284737X.jpg" alt="Data Structures and Algorithm Analysis" class="blockBook" /><p class="blockTitle"><em><a href="#">Data Structures and Algorithm Analysis</a></em></p>
+            </li>
+            <li>
+               <img src="images/book/013286908X.jpg" alt="Ownership Series: Ownership: Critical Thinking" class="blockBook" /><p class="blockTitle"><em><a href="#">Ownership Series: Ownership: Critical Thinking</a></em></p>
+            </li>  
+            <li>
+               <img src="images/book/013295351X.jpg" alt="Opportunities and Challenges of Workplace Diversity" class="blockBook" /><p class="blockTitle"><em><a href="#">Opportunities and Challenges of Workplace Diversity</a></em></p>
+            </li>   
+         </ul>
+      </div>      
+   </aside>
+
+</div>
+
+</body>
+</html> 

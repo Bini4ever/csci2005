@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+    <style>
+        html {
+            background-color: lightgray;
+        }
+        section {
+            color: white;
+            font-size: 200%;
+            background-color: #224BC1;
+            padding: 1px;
+        }
+    
+       
+        input {
+            border-radius: 5px;
+            font-size: 150%;
+            padding: 0.25em;
+            border: 1px solid lightgray;
+            
+        }
+        .in {
+            border-radius: 5px;
+            border-collapse: collapse;
+            width: 97.5%
+        }
+        
+        .sel {
+            font-size: 125%;
+            padding: 1em;
+            border: 1px solid black;
+        }
+        
+        .butten {
+            color: white;
+            text-align: center;
+            text-emphasis: bold;
+            background-color: green;
+            width: 30%;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <h1>&nbsp;&nbsp; FaceBook</h1>
+    </section>
+    <form style="margin: 0% 0% 0% 50%">
+        <h1>Sign Up</h1>
+        <h3>It's free and always will be.</h3>
+        <table>
+            <tr><td>
+                <input  type="text" name="firstName" placeholder="First name"/> 
+            </td>
+            <td>
+                <input type="text" name="LastName" placeholder="Last Name" />
+            </td>
+            <tr> <td colspan="2">
+                <input class="in" type="text" name="number/email" placeholder="Mobile number or email" />
+                </td>
+            </tr>
+            <tr> <td colspan="2">
+                <input class="in" type="text" name="reNumber/email" placeholder="Re-enter Mobile number or email" />
+            </td>
+            </tr>
+            <tr> <td colspan="2">
+                <input class="in" type="text" name="password" placeholder="New password" />
+                </td>
+            </tr>
+        <tr>
+        <h3>
+            Birthday
+        </h3>
+        </tr>
+        <tr>
+            <td>
+                <select class="sel" name="Month" placeholder="Month">
+                    <option selected>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dis</option>
+                </select>
+                <select class="sel" name="Day" placeholder="Day">
+                    <option selected>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select class="sel" name="Year" placeholder="Year">
+                    <option selected>Year</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                </select>
+            </td>
+            <td>
+                why do I need to provide my <br> birthday? <p>
+            </td>
+            </tr>
+         </table>
+        <input type="radio" name="Female" value="Female">Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="radio" name="Male" value="Male">Male </p>
+        
+        <p>By clicking sign Up, you agree to our Terms and that you have read our Dat Policy, including our Cookie Use.</p>
+        <input class="butten" type="button" name="SignUp" value="Sign Up"/>
+
+     </form>
+    
+    </body>
+</html>

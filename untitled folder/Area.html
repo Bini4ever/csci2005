@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>	
+    <script type="text/javascript">
+		
+		function area() {
+			var rad = document.form.radius.value;
+            var area = Math.PI * (rad * rad);
+			return area;
+		}
+
+	</script>
+</head>
+
+<body>
+
+	<form style=" margin: 0 0 0 10%;"name="form">
+
+	<h3>Enter the radius:</h3> <input type="text" name="radius">
+    <br>
+
+	<input style="margin: 2em 0 0 0; text-align: center; padding: 10px; width: 12em; background-color: lightblue;" type="button" value="Calculate the Area" onClick='document.getElementById("output").innerHTML = "<h2>Area of the circle is</h2>" + area();'> 
+	</br>	
+
+	</form>
+    <p id ="output" style="margin: 2em 0 0 8em"></p>
+</body>
+</html>

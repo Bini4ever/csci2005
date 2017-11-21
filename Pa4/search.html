@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+    <title>PA4</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="search.js"></script>
+</head>
+<body>
+    <header>
+            <img src="logo.jpeg" alt="logo" style="width: 100%;"/>
+    </header>
+    <nav>
+        <div>
+            <ul>
+                <li id="list1"><a href="index.html">Home</a></li>
+                <li id="list2"><a href="registrationForm.html">Register Student</a></li>
+                <li id="list3"><a href="allStudent.html">All Students</a></li>
+                <li id="list4"><a href="search.html">LookUp Student</a></li>
+            </ul>
+        </div> 
+    </nav>
+    <article>
+    <div>
+        <h2> Search:</h2>
+    </div>
+        <form name="searchForm">
+        <label>Enter Last Name: </label>
+            <input type="text" name="lastName" placeholder="Last Name">
+            <input type="button" value="search" onclick="search()"/>
+        </form>
+        <p id="searchoutput">
+        </p>
+    </article>
+    <footer>
+        <div>
+                CSCI 2005
+        </div>
+    </footer>
+</body>   
+</html>

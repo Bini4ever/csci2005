@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function start()
+	{
+		var div1 = document.getElementById("container");
+		var item = new Item("iphone", "smart phone", 455);
+        var student = new Student("0973653", "Biniam Lemma", 3.5);
+		div1.innerHTML = "<p> " + item.info() + "</p>"; 
+        div1.innerHTML += "<p> " + student.info() + "</p>";
+	}
+
+	/* Start Item Class */
+	//this acts as both the definition of the pseudo-class 
+	//and a constructor	
+	function Item(itemsName, itemsDescp, itemsPrice)
+	{
+		//this keyword refers to the instance, so that every reference
+		//to internal properties or methods manages its own variables.
+		this.name = itemsName;
+		this.descp = itemsDescp;
+		this.price = itemsPrice;
+	}
+
+    function Student(id, name, gpa){
+        this.ID = id;
+        this.name = name;
+        this.GPA = gpa;
+        
+    }
+    
+   
+    
+    
+	Item.prototype.info = function() {
+		var itemsInfo = "Name: " + this.name + "<br />Description: " + this.descp + "<br />Price: " + this.price;
+		return itemsInfo;
+	};
+    
+    Student.prototype.info = function(){
+        var studentInfo = "ID: " + this.ID + "<br />Name: " + this.name + "<br />GPA: " + this.GPA;
+        return studentInfo;
+    }
+	/* End Item Class */
+
+	window.addEventListener("load", start, false);
+</script>
+</head>
+<body>
+	<div id="container">
+	</div>
+
+</body>
+</html>
